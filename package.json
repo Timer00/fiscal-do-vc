@@ -1,0 +1,18 @@
+{
+  "name": "fiscal-do-vc",
+  "version": "0.0.1",
+  "description": "Bot that watches a servers VC events and perform actions accordingly.",
+  "main": "index.js",
+  "repository": "https://github.com/Timer00/fiscal-do-vc",
+  "author": "Timer00",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.3"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
